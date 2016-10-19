@@ -1,8 +1,8 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-    height: 50.000em;
+.some-container {
+    height: 500px;
 }
 /* NAV STYLES */
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -54,6 +54,9 @@ h1 {
     color: black;
     text-align:center;
 }
+h4.under-title {
+    text-align:center;
+}
 
 p#index {
     text-align:center;
@@ -66,13 +69,22 @@ img {
 .products {
     margin-bottom:12.500em;/*200px*/
     margin-top:4.375em;/*70px*/
+    size: 250px;
+}
+img.container.col-md-4.col-sm-6.col-xs-12.product {
+    height: 400px;
+    width: 400px;
+}
+
+.contact-container {
+    padding-left: 270px;
 }
 
 /* FOOTER */
 footer {
     background-color:#000;
     height:50px;
-    margin-bottom:0;
+    padding-bottom:0;
     clear:both;
 }
 
@@ -88,4 +100,9 @@ footer p {
     color: #fff;
     text-align:center;
     font-size:24px;
+}
+
+/****** SUB-TITLE STYLES*********/
+.sub-title {
+    margin-bottom: 40px;
 }
